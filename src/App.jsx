@@ -1,10 +1,11 @@
+import Home from "./components/Home"
 
 
 function App() {
 
   return (
     <>
-      <h1 className="font-bold underline text-3xl">Hello World!</h1>
+      <Home />
     </>
   )
 }
