@@ -1,1 +1,17 @@
 @import 'tailwindcss';
+
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('/assets/fonts/Satoshi-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Integral-cf';
+    src: url('/assets/fonts/Fontspring-DEMO-integralcf-bold.otf');
+}
+
+@theme {
+    --font-satoshi: Satoshi;
+    --font-integral-cf: Integral-cf;
+}
